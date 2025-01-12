@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(truetype);
+    font-weight: normal;
+}
+.fonte{
+    font-family: 'idroid', sans-serif;
+    text-align: left;
+    color: #006400;
+}
+
+h1.fonte {
+    padding-top: 10px;
+    font-size: 2em;
+    margin: 0px;
+}
+
+h2.fonte {
+    background-image: linear-gradient(to right, #90ee90, white);
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(116, 201, 116);
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(rgb(13, 205, 13),rgb(5, 156, 5), darkgreen);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+header > p {
+    font-size: 1.5em;
+}
+
+nav {
+    text-align: left;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-right: 15px;
+}
+
+header > h1 {
+    margin: 0px;
+}
+
+main {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 1.2em;
+}
+
+aside {
+    background-color: #729ea195;
+    border-radius: 1px;
+    font-weight: bold;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: #729ea195;
+    border-radius: 5px;
+}
+
+aside > h3 {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+aside > p {
+    text-align: justify;
+    padding: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > li::before {
+    content: 'tcharau ';
+}

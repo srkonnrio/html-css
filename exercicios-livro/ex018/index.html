@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - Fontes em CSS</title>
+</head>
+    <style>
+         @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+        @font-face {
+            font-family: 'littlebird';
+            src: url('littlebird.ttf') format(truetype);
+        }
+        
+        body{
+            font-size: 15pt;
+        }
+
+        h2 {
+            font-weight: normal;
+        }
+
+        #sistema{
+            font-family: Arial;
+        }
+
+        #google {
+            font-family: 'Pacifico';
+        }
+
+        #externa {
+            font-family: 'littlebird'
+        }
+
+    </style>
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 id="sistema">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Ou então usar uma fonte do Google Fonts</h2>
+    <h2 id="externa">Ou ainda usar um arquivo local de fontes</h2>
+</body>
+</html>
