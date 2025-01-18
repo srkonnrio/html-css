@@ -9,7 +9,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header {
+    padding: 7.2vh;
     background-color: black;
     color: white;
     text-align: center;
@@ -32,13 +34,50 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding: 71px 30px;
+    line-height: 3em;
+}
+
 section p {
     font-family: 'Sriracha';
     font-size: 3.5vw;
 }
 
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed ;
+
+    color: white;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment:fixed ;
+
+    color: white;
+}
+
+section.transparente p {
+    background-color: #000000d0;
+    padding: 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
 footer {
+    padding: 5px;
     text-align: center;
     background-color: black;
     color: white;
+}
+
+footer p {
+    padding: 2px;
 }
